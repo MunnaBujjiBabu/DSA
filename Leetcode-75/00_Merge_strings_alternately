@@ -1,0 +1,25 @@
+class Solution:
+    def mergeAlternative(self, word1: str, word2: str) -> str:
+        l1 = len(word1)
+        l2 = len(word2)
+        tmp = min(l1, l2)
+        i = 0
+        result = ""
+
+        while i < tmp:
+            result = result + word1[i] + word2[i]
+            i = i + 1 
+        result = result + word1[i:]
+        result = result + word2[i:]
+        
+        return result
+
+
+s1 = Solution()
+print(s1.mergeAlternative("abcdf", "111230"))
+
+str1 = "abcd"
+str2 = "123456"
+
+print(len(str1))
+print(len(str2))

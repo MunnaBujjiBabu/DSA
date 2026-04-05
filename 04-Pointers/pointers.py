@@ -48,3 +48,26 @@ print(dict2)
 
 print(id(dict1))
 print(id(dict2))
+
+
+
+# value of num1 11
+# value of num2 11
+# address of num1 4306920528
+# address of num2 4306920528
+# value of num1 11
+# value of num2 22
+# address of num1 4306920528
+# address of num2 4306920880
+# 11
+# {'name': 'Alice', 'age': 30}
+# {'name': 'Alice', 'age': 30}
+# 4298467264
+# 4298467264
+# {'name': 'Munna', 'age': 30}
+# {'name': 'Munna', 'age': 30}
+# 4298467264
+# 4298467264
+
+# string are immutable
+# dictionary are mutable

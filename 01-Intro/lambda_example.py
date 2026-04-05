@@ -9,5 +9,5 @@ print(students[0]['grade'])
 # Sort by grade instead of name
 #sorted_students = sorted(students, key=lambda x: x["grade"])
 
-sorted_students = sorted(students, key=lambda x: x["grade"], reverse=True)
+sorted_students = sorted(students, key=lambda x: x['name'], reverse=True)
 print(sorted_students)

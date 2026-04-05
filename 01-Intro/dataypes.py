@@ -63,9 +63,8 @@
 # student = {"name": "Munna", "id": 111, "email": "asdf@test.com"}
 student_1 = {1: "munna", 3: "111", 4: "abc"}
 print(student_1.keys())
-keys_1 = student_1.keys()
-print(keys_1)
 
+student_1.
 
 # print(student.values())
 # print(student.items())

@@ -23,6 +23,6 @@ class LinkedList:
 
 node = LinkedList(1)
 print(node.head.value)
-node.print_list()
+node.print_list() 
 
 
